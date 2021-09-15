@@ -1,4 +1,43 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "ananke"
+baseURL = 'https://marcioalthmann.net/'
+theme = "hugo-coder"
+title = "Márcio Althmann"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+enableEmoji = true
+disqusShortname = "marcioalthmann"
+
+[params]
+author = "Márcio Althmann"
+description = "Descrição"
+info = [".Net"]
+hideFooter = false
+hideCredits = false
+hideCopyright = false
+colorScheme = "auto"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github"
+weight = 1
+url = "https://github.com/marcioalthmann"
+
+[menu]
+[[menu.main]]
+  identifier = 'home'
+  name = 'Home'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = 'posts/'
+  weight = 2
+
+[[menu.main]]
+  identifier = "contato"
+  name = "Contato"
+  url = 'contato/'
+  weight = 3

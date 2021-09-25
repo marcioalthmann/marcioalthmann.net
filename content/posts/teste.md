@@ -5,8 +5,8 @@ title = "Teste"
 description = "description"
 slug = "primeiro-post"
 authors = ["Márcio Althmann"]
-tags = []
-categories = []
+tags = ["performance","c#"]
+categories = ["performance","c#"]
 externalLink = ""
 series = []
 +++
